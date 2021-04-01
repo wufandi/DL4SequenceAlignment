@@ -6,7 +6,7 @@ This package has the source code for DRNF and NDThreader for protein threading.
 1. DRNF: protein threading by deep learning when inter-residue distance information is not used
 2. NDThreader: protein threading by deep learning with distance potential
 
-This package is only for non-commerical use. 
+This package is only for non-commerical use. This package is only for non-commerical use. Without explicit permission from the authors, it shall not be used to set up a similar web server for protein structure prediction.
 
 ## set environmental variable
 
