@@ -18,8 +18,8 @@ If you want to use multiple CPUs, you must set it to be larger than 1 especially
 DRNFSearch.py, NDThreaderSearch.py and BatchRNDTAlign.py
 
 ### Download package
-This code is available at http://raptorx.uchicago.edu/Download
-
+This code is also available at http://raptorx.uchicago.edu/Download/ .
+The pre-computed template files are available at http://raptorx.uchicago.edu/download/ .
 
 ### Set up
 Some tools are written in C/C++. To use them, you may build them by running the shell scripts setup.sh by
@@ -97,9 +97,8 @@ database/TGT_BC100 is the folder for all query sequence feature files and databa
 ### RaptorX-3DModeling
 
 If you want to generate feature files for query sequences and templates by yourself, you may use some scripts in the RaptorX-3DModeling package at https://github.com/j3xugit/RaptorX-3DModeling/.
-To generate a template feature file from an MSA, you may use RaptorX-3DModeling/Common/MSA2TPL.sh;
 To generate a sequence feature file from an MSA, you may use RaptorX-3DModeling/Common/MSA2TGT.sh or RaptorX-3DModeling/BuildFeatures/GenTGTFromA3M.sh;
-Note that MSA2TGT.sh needs Theano, but MSA2TPL.sh and GenTGTFromA3M.sh do not.
+Note that MSA2TGT.sh needs Theano, but GenTGTFromA3M.sh do not.
 
 To predict inter-residue distance probability distribution, you may use RaptorX-3DModeling/DL4DistancePrediction4/Scripts/PredictPairRelationFromMSA.sh, which needs Theano but not PyRosetta.
 To convert distance probability distribution to distance potential, you may use RaptorX-3DModeling/DL4DistancePrediction4/Scripts/DeriveDistInfo4Threading.sh.
@@ -111,7 +110,8 @@ all tools are in tools/
 1. Alignment_Comparison: compare two alignments, which can be used to compute recall and precison when one alignment is the ground truth.
 
 ## Reference
-Fandi Wu and Jinbo Xu. Deep Template-based Protein Structure Prediction. https://www.biorxiv.org/content/10.1101/2020.12.26.424433v1.full
+Fandi Wu and Jinbo Xu. Deep Template-based Protein Structure Prediction. PLoS Computational Biology, 2021.
+Also appears at https://www.biorxiv.org/content/10.1101/2020.12.26.424433v1.full 
 
 ### Contact
 Fandi Wu wufandi@outlook.com
