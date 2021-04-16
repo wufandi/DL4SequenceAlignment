@@ -18,8 +18,7 @@ If you want to use multiple CPUs, you must set it to be larger than 1 especially
 DRNFSearch.py, NDThreaderSearch.py and BatchRNDTAlign.py
 
 ### Download package
-This code is also available at http://raptorx.uchicago.edu/Download/ .
-The pre-computed template files are available at http://raptorx.uchicago.edu/download/ .
+This code and pre-computed template files are available at http://raptorx.uchicago.edu/download/ .
 
 ### Set up
 Some tools are written in C/C++. To use them, you may build them by running the shell scripts setup.sh by
